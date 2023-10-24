@@ -1,1 +1,105 @@
-<h1>My First GitHub Page</h1>
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title>My First GitHub Page</title>
+  <style>
+    html{
+        background-color: #ffffff;
+    }
+    
+    body {
+        font-family:'Courier New';
+        max-width:960px;
+        background-color: #ffffff;
+        margin:auto;
+        padding:1%;
+    }
+
+
+
+
+        table.my-table {
+        border-collapse: collapse;
+    } 
+
+
+    table.my-table th {
+        background-color: #54585d;
+        color: #ffebcd;
+        font-weight: bold;
+        font-size: 13px;
+        border: 1px solid #54585d;
+    }
+
+
+    table.my-table td {
+        padding: 15px;
+    }
+    table.my-table td {
+    color: #ffffff;
+    border: 1px solid #383c3f;
+    }
+    table.my-table tr {
+    background-color: #8fbc8f;
+    }
+    table.my-table tr:nth-child(odd) {
+    background-color: #ffebcd;
+    }
+
+    </style>
+    </head>
+
+    <body>
+    <h1>My First GitHub Page</h1>
+    <p>Clever content goes here</p>
+    <p>Clever content goes here</p>
+    <p>Clever content goes here</p>
+    <div>
+    <ul>
+    <li>Mean Girls</li>
+    <li>Princess Diaries</li>
+    <li>Billy Maddison</li>
+    </ul>
+    <ol>
+    <li>Watermelon</li>
+    <li>Mango</li>
+    <li>Pineapple</li>   
+    </ol>
+    </div>
+    <div><img src="https://picsum.photos/200/300"></div>
+    <p>Pictures provided by <a href="https://picsum.photos>target="_blank">Lorem Picsum</a></p>
+    <p>Here is how we use the <strong>strong</strong> tag.</p>
+    <p>Here is how we use the <em>em</em> tag.</p>
+    <p>Here is how we use the <strike>strike</strike> tag.</p>
+    <div>Here we are inside a div.</div> 
+    </p>
+    <span style="background-color: blanchedalmond">Here we are inside a span</span>
+    </p>
+    <table class="my-table">
+    <tr> 
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    </tr> 
+    <tr>    
+    <td>Adaya</td>
+    <td>Springer</td>
+    <td>aspringer@example.com</td>
+    </tr>
+    <tr>    
+    <td>Jayani</td>
+    <td>Springer</td>
+    <td>jspringer@example.com</td>
+    </tr> 
+    <tr>    
+    <td>Malcolm</td>
+    <td>Springer</td>
+    <td>mspringer@example.com</td>
+    </tr>
+    </table>
+    </body>
+
+    </html>
